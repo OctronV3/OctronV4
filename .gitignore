@@ -1,0 +1,34 @@
+# Qdrant local data
+qdrant_data/
+octron_qdrant_memory/
+
+# Persisted integrity hashes (ctx_firewall.py) — regenerated per machine
+.octron_integrity.json
+
+# Upload folder contents (user data)
+upload_here/*
+!upload_here/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

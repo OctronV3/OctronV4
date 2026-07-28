@@ -1,0 +1,12 @@
+ollama>=0.2.0
+qdrant-client>=1.9.0
+tqdm>=4.60.0
+pdfminer.six>=20221105
+PyPDF2>=3.0.0
+
+# Mobile stack (octron_api.py, octron_mobile_ui.py) and octron_devtool.py
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+streamlit>=1.30.0
+requests>=2.31.0
